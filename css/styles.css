@@ -32,32 +32,96 @@
 
 }
 
-
-/* usage */
-
-h1 {
-    font-family: var(--regular);
-    color: var(--darker-red);
-}
-
-h2 {
-    font-family: var(--regular);
-    margin: var(--big-margin);
-    color: var(--neon-green);
-    background-color: var(--black);
-    width: fit-content;
-
-}
-
-p {
-    margin: var(--small-margin);
-    color: var(--white);
-    background-color: var(--dark-brown);
-    width: max-content;
-}
-
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background: #F00;
+
+    /* rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* removing underline */
+    text-decoration: none;
+
+    /* transition effect */
+    transition: all 0.5s ease;
+
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    /* removing underline */
+    text-decoration: none;
+}
+
+.better-container a{
+    width: 200px;
+    padding: 10px;
+    color: var(--neon-green);
+    background: var(--black);
+
+    /* rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* removing underline */
+    text-decoration: none;
+
+    /* transition effect */
+    transition: all 0.5s ease;
+}
+
+.better-container a:hover {
+    background-color: var(--neon-green);
+    color: var(--black);
+    /* removing underline */
+    text-decoration: none;
+}
+
+.gradient-container a{
+    width: 200px;
+    padding: 12px;
+    color: var(--white);
+    background-color: rgba(69,209,194,1);
+    background-image: linear-gradient(45deg, rgba(169,26,188,1) 0%, rgba(69,209,194,1) 45%, rgba(237,131,25,1) 100%);
+
+    /* rounding the corners */
+    border-radius: 10px;
+
+    /* created with the shadow generator */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* removing underline */
+    text-decoration: none;
+
+    /* transition effect */
+    transition: background-color 1s ease;
+}
+
+.gradient-container a:hover {
+    background: rgba(169,26,188,1);
+    color: var(--white);
+    /* removing underline */
+    text-decoration: none;
+
+    /* transition effect */
+    transition: all 2s ease;
 }
 
