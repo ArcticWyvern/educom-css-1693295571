@@ -25,3 +25,23 @@ html, body {
     width: 200px;
     height: 200px;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over Link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected Link */
+a:active {
+    color: blue;
+}
