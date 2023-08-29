@@ -10,16 +10,18 @@ html, body {
     margin: 0;
     padding: 0;
 }
-a {
-    font-size: 22px;
-    color: #F0F;
+
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-.cascading-parent h2 {
-    color: #FD0;
+.site-color {
+    background: indigo;
+    color: #FFF;
 }
 
-.cascading-parent a {
-    font-size: 32px;
-    color: #CCC;
+.site-square {
+    width: 200px;
+    height: 200px;
 }
